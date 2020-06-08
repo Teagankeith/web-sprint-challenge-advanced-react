@@ -35,7 +35,7 @@ function App() {
               </NavLink>
             </li>
             <li>
-              <NavLink to="/cart">
+              <NavLink to="/cart" id="cart"> 
                 Cart
                 <span className="cart-badge">
                   {cart.length > 0 && cart.length}
